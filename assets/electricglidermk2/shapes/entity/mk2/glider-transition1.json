@@ -1,0 +1,5213 @@
+{
+  "editor": {
+    "backDropShape": "game:entity/humanoid/seraph",
+    "allAngles": true,
+    "entityTextureMode": true
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textures": {
+    "mk2steel": "game:block/metal/plate/steel",
+    "mk2edge": "game:block/metal/plate/zinc",
+    "mk2copper": "game:block/metal/plate/copper",
+    "mk2panel": "electricalprogressiveequipment:armor/cheap",
+    "mk2vent": "game:block/coal/coke"
+  },
+  "elements": [
+    {
+      "name": "Mk2Origin",
+      "from": [
+        6,
+        -3,
+        2.5
+      ],
+      "to": [
+        6,
+        -3,
+        2.5
+      ],
+      "rotationOrigin": [
+        6,
+        -3,
+        2.5
+      ],
+      "rotationX": 0,
+      "faces": {},
+      "children": [
+        {
+          "name": "Mk2Spine",
+          "from": [
+            -0.9,
+            -4.6,
+            -2.9
+          ],
+          "to": [
+            1.1,
+            8.2,
+            4.4
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                14.600000000000001,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                14.600000000000001,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                14.600000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                14.600000000000001
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "AccumulatorCasing",
+          "from": [
+            1.1,
+            -3.8,
+            -1.7
+          ],
+          "to": [
+            3.1,
+            6.9,
+            3.2
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                16
+              ]
+            },
+            "east": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                9.8,
+                16
+              ]
+            },
+            "south": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                16
+              ]
+            },
+            "west": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                9.8,
+                16
+              ]
+            },
+            "up": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                9.8
+              ]
+            },
+            "down": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.0,
+                9.8
+              ]
+            }
+          }
+        },
+        {
+          "name": "BatteryCrown",
+          "from": [
+            1.05,
+            6.9,
+            -1.85
+          ],
+          "to": [
+            3.25,
+            7.7,
+            3.35
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                1.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                10.4,
+                1.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                1.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                10.4,
+                1.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                10.4
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                10.4
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "BatteryFoot",
+          "from": [
+            1.05,
+            -4.4,
+            -1.85
+          ],
+          "to": [
+            3.25,
+            -3.8,
+            3.35
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                1.200000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                10.4,
+                1.200000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                1.200000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                10.4,
+                1.200000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                10.4
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.4,
+                10.4
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "BackplateRailL",
+          "from": [
+            3.1,
+            -3.8,
+            -1.7
+          ],
+          "to": [
+            3.4,
+            6.9,
+            -1.15
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                1.1,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                1.1,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                1.1
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                1.1
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "BackplateRailR",
+          "from": [
+            3.1,
+            -3.8,
+            2.65
+          ],
+          "to": [
+            3.4,
+            6.9,
+            3.2
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                1.1000000000000005,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                1.1000000000000005,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                1.1000000000000005
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                0.5999999999999996,
+                1.1000000000000005
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "SpineMarkII-0.25",
+          "from": [
+            3.12,
+            0.5,
+            -0.25
+          ],
+          "to": [
+            3.48,
+            4.8,
+            0.2
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.9,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.9,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                0.9
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                0.9
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "SpineMarkII1.25",
+          "from": [
+            3.12,
+            0.5,
+            1.25
+          ],
+          "to": [
+            3.48,
+            4.8,
+            1.7
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.8999999999999999,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.8999999999999999,
+                8.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                0.8999999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.7199999999999998,
+                0.8999999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RThrusterHousing",
+          "from": [
+            0.6,
+            -4.2,
+            -5.0
+          ],
+          "to": [
+            3.8,
+            5.4,
+            -2.0999999999999996
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                5.800000000000001,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                5.800000000000001,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                5.800000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                5.800000000000001
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RThrusterArmour",
+          "from": [
+            3.81,
+            -2.2,
+            -4.65
+          ],
+          "to": [
+            4.15,
+            4.1,
+            -2.4499999999999997
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                12.6
+              ]
+            },
+            "east": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                12.6
+              ]
+            },
+            "south": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                12.6
+              ]
+            },
+            "west": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                12.6
+              ]
+            },
+            "up": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                4.400000000000001
+              ]
+            },
+            "down": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                4.400000000000001
+              ]
+            }
+          }
+        },
+        {
+          "name": "RIntakeRim",
+          "from": [
+            0.35,
+            5.4,
+            -5.199999999999999
+          ],
+          "to": [
+            4.05,
+            6.15,
+            -1.9
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RIntake",
+          "from": [
+            0.65,
+            6.16,
+            -4.699999999999999
+          ],
+          "to": [
+            3.75,
+            6.32,
+            -2.4
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                0.3200000000000003
+              ]
+            },
+            "east": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.599999999999999,
+                0.3200000000000003
+              ]
+            },
+            "south": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                0.3200000000000003
+              ]
+            },
+            "west": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.599999999999999,
+                0.3200000000000003
+              ]
+            },
+            "up": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                4.599999999999999
+              ]
+            },
+            "down": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                4.599999999999999
+              ]
+            }
+          }
+        },
+        {
+          "name": "RNozzleCollar",
+          "from": [
+            0.25,
+            -4.9,
+            -5.199999999999999
+          ],
+          "to": [
+            4.15,
+            -4.2,
+            -1.9
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RNozzle",
+          "from": [
+            0.75,
+            -6.0,
+            -4.65
+          ],
+          "to": [
+            3.65,
+            -4.9,
+            -2.4499999999999997
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                2.1999999999999993
+              ]
+            },
+            "east": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                2.1999999999999993
+              ]
+            },
+            "south": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                2.1999999999999993
+              ]
+            },
+            "west": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                2.1999999999999993
+              ]
+            },
+            "up": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                4.400000000000001
+              ]
+            },
+            "down": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                4.400000000000001
+              ]
+            }
+          }
+        },
+        {
+          "name": "REmitter",
+          "from": [
+            1.0,
+            -6.08,
+            -4.3999999999999995
+          ],
+          "to": [
+            3.4,
+            -6.0,
+            -2.6999999999999997
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "east": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                3.3999999999999995,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "south": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "west": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                3.3999999999999995,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "up": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                3.3999999999999995
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "down": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                3.3999999999999995
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            }
+          }
+        },
+        {
+          "name": "RCoolingFin-1.8",
+          "from": [
+            4.16,
+            -1.8,
+            -4.7299999999999995
+          ],
+          "to": [
+            4.45,
+            -1.5,
+            -2.37
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RCoolingFin-0.5",
+          "from": [
+            4.16,
+            -0.5,
+            -4.7299999999999995
+          ],
+          "to": [
+            4.45,
+            -0.2,
+            -2.37
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RCoolingFin0.8",
+          "from": [
+            4.16,
+            0.8,
+            -4.7299999999999995
+          ],
+          "to": [
+            4.45,
+            1.1,
+            -2.37
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RCoolingFin2.1",
+          "from": [
+            4.16,
+            2.1,
+            -4.7299999999999995
+          ],
+          "to": [
+            4.45,
+            2.4,
+            -2.37
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RCoolingFin3.4",
+          "from": [
+            4.16,
+            3.4,
+            -4.7299999999999995
+          ],
+          "to": [
+            4.45,
+            3.6999999999999997,
+            -2.37
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "RPowerFeed",
+          "from": [
+            2.0,
+            6.4,
+            -3.55
+          ],
+          "to": [
+            2.5,
+            6.9,
+            -0.6499999999999999
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                5.8,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                5.8,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                5.8
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                5.8
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LThrusterHousing",
+          "from": [
+            0.6,
+            -4.2,
+            3.5999999999999996
+          ],
+          "to": [
+            3.8,
+            5.4,
+            6.5
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                5.800000000000001,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                5.800000000000001,
+                16
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                5.800000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2steel",
+              "uv": [
+                0,
+                0,
+                6.3999999999999995,
+                5.800000000000001
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LThrusterArmour",
+          "from": [
+            3.81,
+            -2.2,
+            3.9499999999999997
+          ],
+          "to": [
+            4.15,
+            4.1,
+            6.15
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                12.6
+              ]
+            },
+            "east": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                12.6
+              ]
+            },
+            "south": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                12.6
+              ]
+            },
+            "west": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                12.6
+              ]
+            },
+            "up": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                4.400000000000001
+              ]
+            },
+            "down": {
+              "texture": "#mk2panel",
+              "uv": [
+                0,
+                0,
+                0.6800000000000006,
+                4.400000000000001
+              ]
+            }
+          }
+        },
+        {
+          "name": "LIntakeRim",
+          "from": [
+            0.35,
+            5.4,
+            3.4
+          ],
+          "to": [
+            4.05,
+            6.15,
+            6.699999999999999
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.5
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                7.3999999999999995,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LIntake",
+          "from": [
+            0.65,
+            6.16,
+            3.9
+          ],
+          "to": [
+            3.75,
+            6.32,
+            6.199999999999999
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                0.3200000000000003
+              ]
+            },
+            "east": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.599999999999999,
+                0.3200000000000003
+              ]
+            },
+            "south": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                0.3200000000000003
+              ]
+            },
+            "west": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.599999999999999,
+                0.3200000000000003
+              ]
+            },
+            "up": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                4.599999999999999
+              ]
+            },
+            "down": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                6.2,
+                4.599999999999999
+              ]
+            }
+          }
+        },
+        {
+          "name": "LNozzleCollar",
+          "from": [
+            0.25,
+            -4.9,
+            3.4
+          ],
+          "to": [
+            4.15,
+            -4.2,
+            6.699999999999999
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                6.599999999999999,
+                1.4000000000000004
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                7.800000000000001,
+                6.599999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LNozzle",
+          "from": [
+            0.75,
+            -6.0,
+            3.9499999999999997
+          ],
+          "to": [
+            3.65,
+            -4.9,
+            6.15
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                2.1999999999999993
+              ]
+            },
+            "east": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                2.1999999999999993
+              ]
+            },
+            "south": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                2.1999999999999993
+              ]
+            },
+            "west": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                4.400000000000001,
+                2.1999999999999993
+              ]
+            },
+            "up": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                4.400000000000001
+              ]
+            },
+            "down": {
+              "texture": "#mk2vent",
+              "uv": [
+                0,
+                0,
+                5.8,
+                4.400000000000001
+              ]
+            }
+          }
+        },
+        {
+          "name": "LEmitter",
+          "from": [
+            1.0,
+            -6.08,
+            4.2
+          ],
+          "to": [
+            3.4,
+            -6.0,
+            5.8999999999999995
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "east": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                3.3999999999999986,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "south": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "west": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                3.3999999999999986,
+                0.16000000000000014
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "up": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                3.3999999999999986
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            },
+            "down": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                4.8,
+                3.3999999999999986
+              ],
+              "reflectiveMode": "Weak",
+              "glow": 32
+            }
+          }
+        },
+        {
+          "name": "LCoolingFin-1.8",
+          "from": [
+            4.16,
+            -1.8,
+            3.87
+          ],
+          "to": [
+            4.45,
+            -1.5,
+            6.2299999999999995
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LCoolingFin-0.5",
+          "from": [
+            4.16,
+            -0.5,
+            3.87
+          ],
+          "to": [
+            4.45,
+            -0.2,
+            6.2299999999999995
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LCoolingFin0.8",
+          "from": [
+            4.16,
+            0.8,
+            3.87
+          ],
+          "to": [
+            4.45,
+            1.1,
+            6.2299999999999995
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.6000000000000001
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LCoolingFin2.1",
+          "from": [
+            4.16,
+            2.1,
+            3.87
+          ],
+          "to": [
+            4.45,
+            2.4,
+            6.2299999999999995
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LCoolingFin3.4",
+          "from": [
+            4.16,
+            3.4,
+            3.87
+          ],
+          "to": [
+            4.45,
+            3.6999999999999997,
+            6.2299999999999995
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                4.719999999999999,
+                0.5999999999999996
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2edge",
+              "uv": [
+                0,
+                0,
+                0.5800000000000001,
+                4.719999999999999
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LPowerFeed",
+          "from": [
+            2.0,
+            6.4,
+            2.15
+          ],
+          "to": [
+            2.5,
+            6.9,
+            5.05
+          ],
+          "faces": {
+            "north": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "east": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                5.8,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "south": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "west": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                5.8,
+                1.0
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "up": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                5.8
+              ],
+              "reflectiveMode": "Weak"
+            },
+            "down": {
+              "texture": "#mk2copper",
+              "uv": [
+                0,
+                0,
+                1.0,
+                5.8
+              ],
+              "reflectiveMode": "Weak"
+            }
+          }
+        },
+        {
+          "name": "LWingRoot",
+          "from": [
+            -0.15,
+            -3.5,
+            4.75
+          ],
+          "to": [
+            -0.15,
+            -3.5,
+            4.75
+          ],
+          "rotationOrigin": [
+            -0.15,
+            -3.5,
+            4.75
+          ],
+          "rotationX": -3.0000000000000004,
+          "faces": {},
+          "children": [
+            {
+              "name": "LPanel0",
+              "from": [
+                -0.22,
+                0,
+                0
+              ],
+              "to": [
+                0.02,
+                12,
+                10
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                },
+                "east": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ]
+                },
+                "south": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                },
+                "west": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ]
+                },
+                "up": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                },
+                "down": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                }
+              }
+            },
+            {
+              "name": "LLeadingEdge0",
+              "from": [
+                -0.4,
+                12,
+                0
+              ],
+              "to": [
+                0.28,
+                12.65,
+                10
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "LTrailingEdge0",
+              "from": [
+                -0.34,
+                -0.45,
+                0
+              ],
+              "to": [
+                0.18,
+                0,
+                10
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "LRib0",
+              "from": [
+                0.03,
+                0,
+                9.45
+              ],
+              "to": [
+                0.38,
+                12,
+                10
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.1000000000000014,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.1000000000000014,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    1.1000000000000014
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    1.1000000000000014
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "LPowerBus0",
+              "from": [
+                0.04,
+                10.8,
+                0
+              ],
+              "to": [
+                0.18,
+                11.2,
+                10
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "LHinge1",
+              "from": [
+                0.45,
+                3,
+                10
+              ],
+              "to": [
+                0.45,
+                3,
+                10
+              ],
+              "rotationOrigin": [
+                0.45,
+                3,
+                10
+              ],
+              "rotationX": -2.666666666666667,
+              "faces": {},
+              "children": [
+                {
+                  "name": "LPanel1",
+                  "from": [
+                    -0.22,
+                    0,
+                    0
+                  ],
+                  "to": [
+                    0.02,
+                    10,
+                    11
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    },
+                    "east": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                      ]
+                    },
+                    "south": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    },
+                    "west": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                      ]
+                    },
+                    "up": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    },
+                    "down": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    }
+                  }
+                },
+                {
+                  "name": "LLeadingEdge1",
+                  "from": [
+                    -0.4,
+                    10,
+                    0
+                  ],
+                  "to": [
+                    0.28,
+                    10.65,
+                    11
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "LTrailingEdge1",
+                  "from": [
+                    -0.34,
+                    -0.45,
+                    0
+                  ],
+                  "to": [
+                    0.18,
+                    0,
+                    11
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "LRib1",
+                  "from": [
+                    0.03,
+                    0,
+                    10.45
+                  ],
+                  "to": [
+                    0.38,
+                    10,
+                    11
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.1000000000000014,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.1000000000000014,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        1.1000000000000014
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        1.1000000000000014
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "LPowerBus1",
+                  "from": [
+                    0.04,
+                    8.8,
+                    0
+                  ],
+                  "to": [
+                    0.18,
+                    9.2,
+                    11
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "LHinge2",
+                  "from": [
+                    0.45,
+                    3,
+                    11
+                  ],
+                  "to": [
+                    0.45,
+                    3,
+                    11
+                  ],
+                  "rotationOrigin": [
+                    0.45,
+                    3,
+                    11
+                  ],
+                  "rotationX": -3.333333333333334,
+                  "faces": {},
+                  "children": [
+                    {
+                      "name": "LPanel2",
+                      "from": [
+                        -0.22,
+                        0,
+                        0
+                      ],
+                      "to": [
+                        0.02,
+                        7,
+                        12
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            14
+                          ]
+                        },
+                        "east": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            14
+                          ]
+                        },
+                        "south": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            14
+                          ]
+                        },
+                        "west": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            14
+                          ]
+                        },
+                        "up": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            16
+                          ]
+                        },
+                        "down": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            16
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "name": "LLeadingEdge2",
+                      "from": [
+                        -0.4,
+                        7,
+                        0
+                      ],
+                      "to": [
+                        0.28,
+                        7.65,
+                        12
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "LTrailingEdge2",
+                      "from": [
+                        -0.34,
+                        -0.45,
+                        0
+                      ],
+                      "to": [
+                        0.18,
+                        0,
+                        12
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "LRib2",
+                      "from": [
+                        0.03,
+                        0,
+                        11.45
+                      ],
+                      "to": [
+                        0.38,
+                        7,
+                        12
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "LPowerBus2",
+                      "from": [
+                        0.04,
+                        5.8,
+                        0
+                      ],
+                      "to": [
+                        0.18,
+                        6.2,
+                        12
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "LMarkII0",
+                      "from": [
+                        0.03,
+                        1.2,
+                        9.0
+                      ],
+                      "to": [
+                        0.26,
+                        5.4,
+                        9.55
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "LMarkII1",
+                      "from": [
+                        0.03,
+                        1.2,
+                        7.8
+                      ],
+                      "to": [
+                        0.26,
+                        5.4,
+                        8.350000000000001
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000032,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000032,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000032
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000032
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    }
+                  ],
+                  "rotationY": 118
+                }
+              ],
+              "rotationY": -118
+            }
+          ],
+          "rotationY": 58
+        },
+        {
+          "name": "RWingRoot",
+          "from": [
+            -0.15,
+            -3.5,
+            -3.25
+          ],
+          "to": [
+            -0.15,
+            -3.5,
+            -3.25
+          ],
+          "rotationOrigin": [
+            -0.15,
+            -3.5,
+            -3.25
+          ],
+          "rotationX": 3.0000000000000004,
+          "faces": {},
+          "children": [
+            {
+              "name": "RPanel0",
+              "from": [
+                -0.22,
+                0,
+                -10
+              ],
+              "to": [
+                0.02,
+                12,
+                0
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                },
+                "east": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ]
+                },
+                "south": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                },
+                "west": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    16
+                  ]
+                },
+                "up": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                },
+                "down": {
+                  "texture": "#mk2panel",
+                  "uv": [
+                    0,
+                    0,
+                    0.48,
+                    16
+                  ]
+                }
+              }
+            },
+            {
+              "name": "RLeadingEdge0",
+              "from": [
+                -0.4,
+                12,
+                -10
+              ],
+              "to": [
+                0.28,
+                12.65,
+                0
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    1.3000000000000007
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2edge",
+                  "uv": [
+                    0,
+                    0,
+                    1.36,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "RTrailingEdge0",
+              "from": [
+                -0.34,
+                -0.45,
+                -10
+              ],
+              "to": [
+                0.18,
+                0,
+                0
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.9
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.04,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "RRib0",
+              "from": [
+                0.03,
+                0,
+                -10
+              ],
+              "to": [
+                0.38,
+                12,
+                -9.45
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.1000000000000014,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    1.1000000000000014,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    1.1000000000000014
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2steel",
+                  "uv": [
+                    0,
+                    0,
+                    0.7,
+                    1.1000000000000014
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "RPowerBus0",
+              "from": [
+                0.04,
+                10.8,
+                -10
+              ],
+              "to": [
+                0.18,
+                11.2,
+                0
+              ],
+              "faces": {
+                "north": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "east": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "south": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "west": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    16,
+                    0.7999999999999972
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "up": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                },
+                "down": {
+                  "texture": "#mk2copper",
+                  "uv": [
+                    0,
+                    0,
+                    0.27999999999999997,
+                    16
+                  ],
+                  "reflectiveMode": "Weak"
+                }
+              }
+            },
+            {
+              "name": "RHinge1",
+              "from": [
+                0.45,
+                3,
+                -10
+              ],
+              "to": [
+                0.45,
+                3,
+                -10
+              ],
+              "rotationOrigin": [
+                0.45,
+                3,
+                -10
+              ],
+              "rotationX": 2.666666666666667,
+              "faces": {},
+              "children": [
+                {
+                  "name": "RPanel1",
+                  "from": [
+                    -0.22,
+                    0,
+                    -11
+                  ],
+                  "to": [
+                    0.02,
+                    10,
+                    0
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    },
+                    "east": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                      ]
+                    },
+                    "south": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    },
+                    "west": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                      ]
+                    },
+                    "up": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    },
+                    "down": {
+                      "texture": "#mk2panel",
+                      "uv": [
+                        0,
+                        0,
+                        0.48,
+                        16
+                      ]
+                    }
+                  }
+                },
+                {
+                  "name": "RLeadingEdge1",
+                  "from": [
+                    -0.4,
+                    10,
+                    -11
+                  ],
+                  "to": [
+                    0.28,
+                    10.65,
+                    0
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        1.3000000000000007
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2edge",
+                      "uv": [
+                        0,
+                        0,
+                        1.36,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "RTrailingEdge1",
+                  "from": [
+                    -0.34,
+                    -0.45,
+                    -11
+                  ],
+                  "to": [
+                    0.18,
+                    0,
+                    0
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.9
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.04,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "RRib1",
+                  "from": [
+                    0.03,
+                    0,
+                    -11
+                  ],
+                  "to": [
+                    0.38,
+                    10,
+                    -10.45
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.1000000000000014,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        1.1000000000000014,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        1.1000000000000014
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2steel",
+                      "uv": [
+                        0,
+                        0,
+                        0.7,
+                        1.1000000000000014
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "RPowerBus1",
+                  "from": [
+                    0.04,
+                    8.8,
+                    -11
+                  ],
+                  "to": [
+                    0.18,
+                    9.2,
+                    0
+                  ],
+                  "faces": {
+                    "north": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "east": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "south": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "west": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        16,
+                        0.7999999999999972
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "up": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    },
+                    "down": {
+                      "texture": "#mk2copper",
+                      "uv": [
+                        0,
+                        0,
+                        0.27999999999999997,
+                        16
+                      ],
+                      "reflectiveMode": "Weak"
+                    }
+                  }
+                },
+                {
+                  "name": "RHinge2",
+                  "from": [
+                    0.45,
+                    3,
+                    -11
+                  ],
+                  "to": [
+                    0.45,
+                    3,
+                    -11
+                  ],
+                  "rotationOrigin": [
+                    0.45,
+                    3,
+                    -11
+                  ],
+                  "rotationX": 3.333333333333334,
+                  "faces": {},
+                  "children": [
+                    {
+                      "name": "RPanel2",
+                      "from": [
+                        -0.22,
+                        0,
+                        -12
+                      ],
+                      "to": [
+                        0.02,
+                        7,
+                        0
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            14
+                          ]
+                        },
+                        "east": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            14
+                          ]
+                        },
+                        "south": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            14
+                          ]
+                        },
+                        "west": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            14
+                          ]
+                        },
+                        "up": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            16
+                          ]
+                        },
+                        "down": {
+                          "texture": "#mk2panel",
+                          "uv": [
+                            0,
+                            0,
+                            0.48,
+                            16
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "name": "RLeadingEdge2",
+                      "from": [
+                        -0.4,
+                        7,
+                        -12
+                      ],
+                      "to": [
+                        0.28,
+                        7.65,
+                        0
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            1.3000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.36,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "RTrailingEdge2",
+                      "from": [
+                        -0.34,
+                        -0.45,
+                        -12
+                      ],
+                      "to": [
+                        0.18,
+                        0,
+                        0
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.9
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.04,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "RRib2",
+                      "from": [
+                        0.03,
+                        0,
+                        -12
+                      ],
+                      "to": [
+                        0.38,
+                        7,
+                        -11.45
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            14
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2steel",
+                          "uv": [
+                            0,
+                            0,
+                            0.7,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "RPowerBus2",
+                      "from": [
+                        0.04,
+                        5.8,
+                        -12
+                      ],
+                      "to": [
+                        0.18,
+                        6.2,
+                        0
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            16,
+                            0.8000000000000007
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2copper",
+                          "uv": [
+                            0,
+                            0,
+                            0.27999999999999997,
+                            16
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "RMarkII0",
+                      "from": [
+                        0.03,
+                        1.2,
+                        -9.55
+                      ],
+                      "to": [
+                        0.26,
+                        5.4,
+                        -9.0
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000014,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000014
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    },
+                    {
+                      "name": "RMarkII1",
+                      "from": [
+                        0.03,
+                        1.2,
+                        -8.350000000000001
+                      ],
+                      "to": [
+                        0.26,
+                        5.4,
+                        -7.8
+                      ],
+                      "faces": {
+                        "north": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "east": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000032,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "south": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "west": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            1.1000000000000032,
+                            8.4
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "up": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000032
+                          ],
+                          "reflectiveMode": "Weak"
+                        },
+                        "down": {
+                          "texture": "#mk2edge",
+                          "uv": [
+                            0,
+                            0,
+                            0.46,
+                            1.1000000000000032
+                          ],
+                          "reflectiveMode": "Weak"
+                        }
+                      }
+                    }
+                  ],
+                  "rotationY": -118
+                }
+              ],
+              "rotationY": 118
+            }
+          ],
+          "rotationY": -58
+        }
+      ],
+      "stepParentName": "UpperTorso"
+    }
+  ]
+}

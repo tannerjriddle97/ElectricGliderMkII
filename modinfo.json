@@ -1,0 +1,17 @@
+{
+  "type": "code",
+  "modid": "electricglidermk2",
+  "name": "Electric Glider Mk II",
+  "authors": ["obbra"],
+  "description": "An Electrical Progressive glider upgrade with six storage slots, four times the charge, stronger climbing, and powered vertical takeoff.",
+  "version": "0.1.23",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true,
+  "dependencies": {
+    "game": "1.22.7",
+    "electricalprogressivecore": "3.3.0",
+    "electricalprogressivebasics": "3.3.1",
+    "electricalprogressiveequipment": "3.2.3"
+  }
+}

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <AssemblyName>GliderMk2Probe</AssemblyName>
+    <GamePath Condition="'$(GamePath)' == ''">E:\Games\Vintagestory</GamePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../GliderMk2.csproj"><Private>false</Private></ProjectReference>
+    <Reference Include="VintagestoryAPI"><HintPath>$(GamePath)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VintagestoryLib"><HintPath>$(GamePath)/VintagestoryLib.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSEssentials"><HintPath>$(GamePath)/Mods/VSEssentials.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSSurvivalMod"><HintPath>$(GamePath)/Mods/VSSurvivalMod.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

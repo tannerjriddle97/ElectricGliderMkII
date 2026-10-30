@@ -1,0 +1,4 @@
+{
+  "type":"code", "modid":"glidermk2probe", "name":"Mk II isolated integration probe", "version":"0.0.1",
+  "side":"Server", "dependencies":{"electricglidermk2":"0.1.6"}
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><UseAppHost>false</UseAppHost>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+    <GamePath Condition="'$(GamePath)' == ''">E:\Games\Vintagestory</GamePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="../../assets/**/*.json" Link="assets/%(RecursiveDir)%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Include="../../probe/IgnoresAccessChecksToAttribute.cs" Link="IgnoresAccessChecksToAttribute.cs" />
+    <ProjectReference Include="../../GliderMk2.csproj" />
+    <Reference Include="VintagestoryAPI"><HintPath>$(GamePath)/VintagestoryAPI.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSEssentials"><HintPath>$(GamePath)/Mods/VSEssentials.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="VSSurvivalMod"><HintPath>$(GamePath)/Mods/VSSurvivalMod.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)/Lib/0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="protobuf-net"><HintPath>$(GamePath)/Lib/protobuf-net.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+# Local build products and dependency assemblies
+**/bin/
+**/obj/
+/build/
+/artifacts/
+/outputs/
+/dist/
+/releases/
+/.local/
+/original/
+*.dll
+*.pdb
+*.zip
+*.log
+*.rsp
+.vs/
+.idea/
+*.user
+.env
+.env.*
+!.env.example
+# Local game profiles and saves
+*-profile/
+*-data/
+Saves/
+Cache/
+Logs/
+*.vcdbs*
+
+.build/
+.build-cli/
+.dotnet/
+/release/
+/source-release/

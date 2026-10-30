@@ -1,0 +1,17 @@
+{
+  "name": "electricglidermk2:upgrade",
+  "showInCreatedBy": true,
+  "ingredientPattern": "LBL,PGP,R_R",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "L": { "type": "item", "code": "game:cloth-plain", "quantity": 4 },
+    "B": { "type": "block", "code": "electricalprogressivebasics:accumulator-tier2-normal", "quantity": 1 },
+    "P": { "type": "item", "code": "game:metalplate-steel", "quantity": 2 },
+    "G": { "type": "item", "code": "game:schematic-glider", "quantity": 1, "consume": false },
+    "R": { "type": "item", "code": "electricalprogressivebasics:engineshaft", "quantity": 1 }
+  },
+  "output": {
+    "type": "item", "code": "electricglidermk2:glider-mk2", "quantity": 1
+  }
+}
